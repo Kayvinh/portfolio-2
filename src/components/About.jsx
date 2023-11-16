@@ -30,19 +30,23 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>All</p>
+        <h2 className={styles.sectionHeadText}>About me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hello there! My name is Kevin and I am a software engineer. My journey
+         started when I first stepped foot on campus of University of Nevada, 
+         Las Vegas. I graduated with a BA in computer science and have had a 
+         passion for technology ever since. After college I enrolled in Rithm 
+         full-stack developer bootcamp to combine my theoretical skills and 
+         enhance my practical skills.
+         As a developer, I am constantly seeking opportunities to work in a 
+         collaborative environment where I can share my skills with the team 
+         while also enhancing my capabilities. For me, the learning process 
+         never ends, and I am always eager to continue my professional development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

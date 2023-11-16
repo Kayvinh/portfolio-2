@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[100px] sm:h-[100px] w-[100px] h-[80px] object-contain"
+            className="sm:w-[100px] sm:h-[80px] w-[50px] h-[50px] object-contain"
           />
 
           {/* if you have text you want besides your logo it comes here.
@@ -73,7 +73,7 @@ const Navbar = () => {
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    }  font-arenq 
+                    }  font-arenq
                       uppercase cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);

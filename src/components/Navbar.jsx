@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src={logo} // your logo comes here
             alt="logo"
-            className="sm:w-[100px] sm:h-[80px] w-[50px] h-[50px] object-contain"
+            className="sm:w-[100px] sm:h-[100px] w-[100px] h-[80px] object-contain"
           />
 
           {/* if you have text you want besides your logo it comes here.
@@ -65,16 +65,16 @@ const Navbar = () => {
                 />
               </div>
               <ul
-                className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                className="list-none flex flex-col 
+                items-start justify-end">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                    }  font-arenq 
+                      uppercase cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
